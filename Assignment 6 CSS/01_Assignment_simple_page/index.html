@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Web Page</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .internal {
+            color: red;
+        }
+
+        .inline_internal {
+            color: red;
+        }
+
+        .internal_ext {
+            color: rgb(19, 142, 49);
+        }
+
+        .inline_internal_external {
+            color: darkred;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="color:blue;">Here we are using Inline CSS</div>
+    <div class="internal">Here we are using Internal CSS</div>
+    <div class="external">Here we are using external CSS</div>
+    <div style="color:aqua;" class="inline_internal">Here we are using Inline + Internal CSS</div>
+    <div class="int_external internal_ext">Here we are using Internal + external CSS</div>
+    <div style="color:cornflowerblue;" class="inline_internal_external">Here we are using Inline + Internal + external
+        CSS
+    </div>
+
+</body>
+
+</html>

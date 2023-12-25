@@ -1,0 +1,9 @@
+.external{
+    color:blueviolet;
+}
+.int_external{
+    color: rgb(224, 43, 176);
+}
+.inline_internal_external{
+    color: gold;
+}
