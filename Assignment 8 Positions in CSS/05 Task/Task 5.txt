@@ -1,0 +1,4 @@
+Task 5. Explain the z-index, with a code example.
+Ans. The z-index property in CSS is used to control the stacking order of positioned elements, primarily those with a
+position value of absolute, relative, fixed, or sticky. It determines the order in which elements are stacked on top
+of each other along the z-axis, creating a 3D-like effect even though web pages are inherently 2D.
