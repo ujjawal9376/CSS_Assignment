@@ -1,0 +1,35 @@
+Q2. Explain the role of the following key properties in the Flexbox layout model
+1. justify-content
+2.align-items
+3. gap
+4. Flex-direction
+5. Flex-wrap
+Ans. 1. justify-content: The justify-content in Flexbox is used to control the alignment of flex items along the main axis of the flex container. It determines how the extra space or insufficient space along the main axis is distributed. There are several values for justify-content, including flex-start, flex-end, center, space-between, space-evenly and space-around.
+2. align-items: The align-items property controls the alignment of flex items along the cross axis of the flex container. It specifies how items are positioned within their container along this axis. It accepts values such as flex-start, flex-end, center, baseline, and stretch.
+3. Gap:
+* Role: Sets the space between flex items within a flex container.
+* Details:
+* Applied directly to a flex container to set the gap between its child items.
+* Not directly applicable to Flexbox; more commonly associated with CSS Grid, where it sets the gap between grid items.
+* Use Case: Adds visual spacing between flex items, making the layout more aesthetically pleasing and easier to read.
+
+* 
+
+* 4. Flex-Direction:
+Role: Establishes the main axis and its direction within the flex container.
+* Details:
+* row: Main axis is horizontal, starting from the left.
+* row-reverse: Main axis is horizontal, starting from the right.
+* column: Main axis is vertical, starting from the top.
+* column-reverse: Main axis is vertical, starting from the bottom.
+* Use Case: Influences the flow of items either horizontally or vertically within the flex container.
+
+5. Flex-wrap:
+* Role: Defines whether the flex container should wrap its items onto multiple lines or not.
+* Details:
+* nowrap: All flex items are on a single line.
+* wrap: Flex items wrap onto multiple lines if needed.
+* wrap-reverse: Flex items wrap onto multiple lines in reverse order.
+* Use Case: Useful for creating responsive layouts, especially when dealing with a dynamic number of items that may not fit within a single line.
+Understanding and using these Flexbox properties empowers web developers to create versatile and responsive layouts, adjusting the position, alignment, and spacing of items within a flex container.
+
