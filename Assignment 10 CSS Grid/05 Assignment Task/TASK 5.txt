@@ -1,0 +1,2 @@
+TASK 5. Explain the difference between justify-items and justify-self using code examples.
+Ans. justify-items is used on a grid container and is used to determine how grid items are spread out along a row by setting the default justify-self property for all child boxes. justify-self is used to set how an individual grid item positions itself along the row/inline axis.

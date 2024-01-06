@@ -1,0 +1,34 @@
+.container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 100px 100px 100px;
+}
+
+.box {
+    background-color: bisque;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+    color: black;
+}
+
+.boxa {
+    grid-column: 1 / 3;
+    grid-row: 1;
+}
+
+.boxb {
+    grid-column: 3;
+    grid-row: 1 / 3;
+}
+
+.boxc {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.boxd {
+    grid-column: 2;
+    grid-row: 2;
+}
