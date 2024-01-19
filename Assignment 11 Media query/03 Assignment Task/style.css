@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar {
+    width: 100%;
+    height: 5vh;
+    background-color: black;
+}
+
+.nav-bar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nav-bar li {
+    padding: 15px;
+
+    list-style: none;
+}
+
+.nav-bar li a {
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width:768px) {
+    .nav-bar ul {
+        flex-direction: column;
+        align-items: center;
+        background-color: gray;
+    }
+}
