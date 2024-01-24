@@ -1,0 +1,15 @@
+ button {
+     background-color: royalblue;
+     border: none;
+     padding: 15px;
+     margin: 100px 0 0 100px;
+     width: 120px;
+     color: white;
+     font-size: 18px;
+     border-radius: 10px;
+ }
+
+ button:hover {
+     box-shadow: 10px 5px 5px #9f9a9a;
+     cursor: pointer;
+ }
